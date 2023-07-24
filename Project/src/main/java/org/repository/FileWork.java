@@ -1,7 +1,12 @@
 package org.repository;
 
+import org.entity.Client;
+
 import java.util.List;
 
 public interface FileWork {
-    List<?> getAll();
+    void saveClient(Client client);
+    void deleteClient(long client);
+    Client findClient(long id);
+    List<Client> getClientList();
 }

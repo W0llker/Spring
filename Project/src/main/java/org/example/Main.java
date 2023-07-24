@@ -10,9 +10,10 @@ public class Main {
         Client canya = new Client("Саня","Пупс","Zaved","1234");
         Client egor = new Client("Егор","Пупс","Reklow","1234");
 
-        repositoryClient.saveClient(vadiam);
-        repositoryClient.saveClient(canya);
-        repositoryClient.saveClient(egor);
+//        repositoryClient.saveClient(vadiam);
+//        repositoryClient.saveClient(canya);
+//        repositoryClient.saveClient(egor);
+        repositoryClient.findClient(5);
         System.out.println(repositoryClient.getClientList());
     }
 }
